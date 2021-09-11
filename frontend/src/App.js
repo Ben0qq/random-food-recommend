@@ -1,11 +1,32 @@
 import React from 'react';
 import './App.css';
 import Menu from './components/Menu/Menu'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Career from './components/Career/Career'
 
 function App() {
   return (
     <div className="App">
-      <Menu/>
+      <Router>
+        <Menu />
+        <Switch>
+          <Route exact path="/">
+          </Route>
+          <Route path="/hobby">
+          </Route>
+          <Route exact path="/career">
+            <Career/>
+          </Route>
+          <Route path="/achievements">
+          </Route>
+          <Route exact path="/links">
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
