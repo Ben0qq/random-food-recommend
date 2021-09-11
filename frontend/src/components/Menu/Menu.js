@@ -52,8 +52,8 @@ function Menu() {
                 <ListItemText primary="Kariera" />
               </ListItem>
               <Divider/>
-              <ListItem button component={Link} to="/achievements">
-                <ListItemText primary="Osiągnięcia" />
+              <ListItem button component={Link} to="/education">
+                <ListItemText primary="Edukacja" />
               </ListItem>
               <Divider/>
               <ListItem button component={Link} to="/links">

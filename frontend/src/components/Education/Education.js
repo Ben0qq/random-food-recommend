@@ -16,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 
-function Menu() {
+function Education() {
     const classes = useStyles();
 
     return (
@@ -63,4 +63,4 @@ function Menu() {
     );
 }
 
-export default Menu;
+export default Education;

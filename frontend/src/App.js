@@ -6,8 +6,8 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import Career from './components/Career/Career'
-
+import Education from './components/Education/Education';
+ 
 function App() {
   return (
     <div className="App">
@@ -18,10 +18,10 @@ function App() {
           </Route>
           <Route path="/hobby">
           </Route>
-          <Route exact path="/career">
-            <Career/>
+          <Route exact path="/education">
+            <Education/>
           </Route>
-          <Route path="/achievements">
+          <Route path="/career">
           </Route>
           <Route exact path="/links">
           </Route>
