@@ -10,13 +10,13 @@ import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
 import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles((theme) => ({
-    Education: {
+    Career: {
 
     }
 }));
 
 
-function Education() {
+function Career() {
     const classes = useStyles();
 
     return (
@@ -24,38 +24,38 @@ function Education() {
             <Timeline align="alternate">
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography color="textSecondary">2014-2017</Typography>
+                        <Typography color="textSecondary">Wakacje 2017, 2018, 2019</Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                        <Typography>Społeczne Liceum Ogólnokształcące</Typography>
+                        <Typography>Praca w Niemczech, co roku prace dorywcze przez miesiąc (magazyn,budowa)</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography color="textSecondary">2017-2021</Typography>
+                        <Typography color="textSecondary">Lipiec 2021 - Wrzesień 2021</Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                        <Typography>Polibuda</Typography>
+                        <Typography>Nokia Summer Trainee</Typography>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
-                        <Typography color="textSecondary">2021-teraz</Typography>
+                        <Typography color="textSecondary">Październik 2021-teraz</Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent>
-                        <Typography>Polibuda 2</Typography>
+                        <Typography>Nokia Working Student</Typography>
                     </TimelineContent>
                 </TimelineItem>
             </Timeline>
@@ -63,4 +63,4 @@ function Education() {
     );
 }
 
-export default Education;
+export default Career;

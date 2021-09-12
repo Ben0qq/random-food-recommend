@@ -44,10 +44,6 @@ function Menu() {
                 <ListItemText primary="O mnie" />
               </ListItem>
               <Divider/>
-              <ListItem button component={Link} to="/hobby">
-                <ListItemText primary="Zainteresowania" />
-              </ListItem>
-              <Divider/>
               <ListItem button component={Link} to="/career">
                 <ListItemText primary="Kariera" />
               </ListItem>
